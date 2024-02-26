@@ -1,4 +1,7 @@
 package pe.edu.idat.apprecyclerviewimg
 
-class Android {
-}
+data class Android (
+    var nombre: String,
+    var version: String,
+    var img: Int
+)
